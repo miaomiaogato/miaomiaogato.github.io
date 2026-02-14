@@ -1,1 +1,0 @@
-import{u as o,k as n,l}from"./BsnTXePc.js";import{l as c}from"./DIeogL5L.js";function u(e){throw new Error("https://svelte.dev/e/lifecycle_outside_component")}function f(e){n===null&&u(),c&&n.l!==null?r(n).m.push(e):o(()=>{const t=l(e);if(typeof t=="function")return t})}function r(e){var t=e.l;return t.u??={a:[],b:[],m:[]}}export{f as o};

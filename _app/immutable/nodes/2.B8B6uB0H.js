@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/69_IOA4Y.js";import{a as i,f as o}from"../chunks/CvCe3EbR.js";import"../chunks/CDOBjPPK.js";var r=o(`<div class="flex items-center justify-center h-full"><h1 class="text-4xl">Hi! I'm Daniel.</h1></div>`);function l(t){var e=r();i(t,e)}export{l as component};
