@@ -2,6 +2,6 @@
     import { base } from "$app/paths";
 </script>
   
-<h1 class="font-serif text-4xl">sveltekit-gh-pages</h1>
-<p class="font-sans">Deployed to GitHub Pages.</p>
-<a href="{base}/about">About</a>
+<div class="flex items-center justify-center h-full">
+	<h1 class="text-4xl">Hi! I'm Daniel.</h1>
+</div>

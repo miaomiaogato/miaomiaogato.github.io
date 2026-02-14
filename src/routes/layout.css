@@ -1,5 +1,5 @@
-@import 'tailwindcss';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+@import 'tailwindcss';
 
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
@@ -7,4 +7,30 @@
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui;
   --font-serif: "Playfair Display", ui-serif, Georgia;
+  --color-cream: #FEFEF8;
+  --color-charcoal: #2C2C2C;
+}
+
+body {
+  color: var(--color-charcoal);
+  font-family: var(--font-serif);
+}
+
+.layout-container {
+  background-color: var(--color-cream);
+}
+
+.sidebar {
+  left: calc(50% - 400px - 24px);
+  top: 50%;
+  transform: translate(-100%, -50%);
+}
+
+.nav-link {
+  color: var(--color-charcoal);
+  transition: opacity 0.2s;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
 }
