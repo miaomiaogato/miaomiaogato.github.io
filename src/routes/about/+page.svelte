@@ -1,3 +1,2 @@
-<h1>About</h1>
-<p>Reload this page. You should see the same content.</p>
-<p>View the page source: the HTML is pre-rendered.</p>
+<h1>About Me</h1>
+<p>i like cats</p>
