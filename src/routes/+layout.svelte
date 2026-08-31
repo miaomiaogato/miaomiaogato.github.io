@@ -86,7 +86,7 @@
   .name,
   .pronouns {
     margin: 0;
-    color: #000;
+    color: var(--color-black);
     text-align: center;
   }
 
@@ -99,17 +99,18 @@
   }
 
   .nav-links a {
-    color: #888;
+    color: var(--color-gray);
     text-decoration: none;
   }
 
   .nav-links a:hover {
-    color: #000;
+    color: var(--color-black);
   }
 
   .content {
     flex: 1;
-    border: 1px solid #ccc;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-border);
     padding: 2.5rem;
     overflow-y: auto;
   }
