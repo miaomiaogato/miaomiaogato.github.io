@@ -41,10 +41,13 @@
 }
 
 :root {
-  --color-white: #fffff2;
+  --color-white: #faf9f6;
   --color-black: #000000;
   --color-gray: #888888;
   --color-border: #cccccc;
+  --color-overlay: rgba(0, 0, 0, 0.3);
+  --ease-overlay: 0.25s;
+  --ease-text: 0.2s;
 }
 
 html,
@@ -57,5 +60,11 @@ body {
 body {
   font-family: 'DM Mono', monospace;
   background-color: var(--color-white);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239abba4' fill-opacity='0.12'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23767676' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+
+
+a {
+  text-decoration: none;
 }

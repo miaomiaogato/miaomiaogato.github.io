@@ -4,16 +4,16 @@
 </script>
 
 <svelte:head>
-  <title>daniel miao</title>
+  <title>Daniel Miao</title>
 </svelte:head>
 
 <div class="page-wrapper">
   <div class="page">
     <div class="sidebar">
       <div class="profile">
-        <img class="profile-pic" src="/images/miaomiaogato.png" alt="Miaomiaogato" />
+        <img class="profile-pic" src="/images/pfp_noeyes_cropped.png" alt="Miaomiaogato" />
         <div class="identity">
-          <p class="name">daniel miao</p>
+          <p class="name">Daniel Miao</p>
           <p class="pronouns">he/him</p>
         </div>
       </div>
@@ -22,8 +22,8 @@
         <a href="/news">News</a>
         <a href="/about">About Me</a>
         <a href="/projects">Projects</a>
-        <a href="/blog">Blog</a>
-        <a href="/contact">Contact</a>
+        <a href="/resume">Resume</a>
+        <a href="/socials">Socials</a>
       </div>
     </div>
     <div class="content">
@@ -73,6 +73,7 @@
     width: var(--pfp-width);
     height: var(--pfp-width);
     border-radius: 50%;
+    border: 1px solid var(--color-border);
     object-fit: cover;
   }
 
@@ -101,6 +102,7 @@
   .nav-links a {
     color: var(--color-gray);
     text-decoration: none;
+    transition: color var(--ease-text) ease;
   }
 
   .nav-links a:hover {
